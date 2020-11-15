@@ -6,7 +6,7 @@ bot.on("guildMemberAdd", async member => {
       return;
     } else {
       let BG = db.get(`${member.guild.id}.Config.Welcome.Background`);
-      if (!BG) BG = "https://ibb.co/4dBrHjk";
+      if (!BG) BG = "URL_Background.png";
         
       let MSG = db.get(`${member.guild.id}.Config.Welcome.Message`);
       if (!MSG) MSG = "WELCOME (Default Message)";
