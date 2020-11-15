@@ -1,5 +1,5 @@
 {
-  "TOKEN": "",
+  "TOKEN": "process.env.token",
   "CHANNEL_WELCOME": "777412313602719787",
   "ROLES_WELCOME": ["",""]
 }
